@@ -1,0 +1,10 @@
+
+
+df.columns  <= list the column names
+df.head(x)  <= where x any positive interger
+	ex: df.head(2) <= will list the column names plus two rows
+df.describe()  <= give a summary of the numerical values
+df.dtypes      <= list the datatype of each column
+.astype        <= use to convert to datetime64 on the fly
+
+use groupby to aggregate the data
